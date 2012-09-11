@@ -99,33 +99,81 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="Packages\Common.Logging.2.0.0.nupkg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Packages\CommonServiceLocator.1.0.nupkg" />
-    <None Include="Packages\CsvHelper.1.4.0.nupkg" />
-    <None Include="Packages\DataAnnotationsExtensions.1.0.2.0.nupkg" />
-    <None Include="Packages\DataAnnotationsExtensions.MVC3.1.0.2.0.nupkg" />
-    <None Include="Packages\developwithpassion.specifications.rhinomocks.0.4.24.3.nupkg" />
-    <None Include="Packages\elmah.1.2.2.nupkg" />
-    <None Include="Packages\json2.1.0.2.nupkg" />
-    <None Include="Packages\log4net.1.2.10.nupkg" />
-    <None Include="Packages\log4net.1.2.11.nupkg" />
-    <None Include="Packages\log4net.2.0.0.nupkg" />
-    <None Include="Packages\Lucene.2.9.2.2.nupkg" />
-    <None Include="Packages\Machine.Fakes.0.2.8.nupkg" />
-    <None Include="Packages\Machine.Fakes.RhinoMocks.0.2.8.nupkg" />
-    <None Include="Packages\Machine.Specifications.0.4.24.0.nupkg" />
-    <None Include="Packages\NServiceBus.3.2.6.nupkg" />
-    <None Include="Packages\NServiceBus.Host.3.2.6.nupkg" />
-    <None Include="Packages\NServiceBus.Structuremap.3.2.6.nupkg" />
-    <None Include="Packages\Quartz.2.0.1.nupkg" />
-    <None Include="Packages\RhinoMocks.3.6.nupkg" />
-    <None Include="Packages\SolrNet.0.3.1.nupkg" />
-    <None Include="Packages\SolrNet.StructureMap.0.3.1.nupkg" />
-    <None Include="Packages\structuremap.2.6.3.nupkg" />
-    <None Include="Packages\System.Data.SQLite.1.0.80.0.nupkg" />
-    <None Include="Packages\WebActivator.1.2.0.0.nupkg" />
+    <Content Include="Packages\Common.Logging.2.0.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\CommonServiceLocator.1.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\CsvHelper.1.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\DataAnnotationsExtensions.1.0.2.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\DataAnnotationsExtensions.MVC3.1.0.2.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\developwithpassion.specifications.rhinomocks.0.4.24.3.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\elmah.1.2.2.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\json2.1.0.2.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\log4net.1.2.10.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\log4net.1.2.11.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\log4net.2.0.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\Lucene.2.9.2.2.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\Machine.Fakes.0.2.8.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\Machine.Fakes.RhinoMocks.0.2.8.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\Machine.Specifications.0.4.24.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\NServiceBus.3.2.6.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\NServiceBus.Host.3.2.6.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\NServiceBus.Structuremap.3.2.6.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\Quartz.2.0.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\RhinoMocks.3.6.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\SolrNet.0.3.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\SolrNet.StructureMap.0.3.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\structuremap.2.6.3.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\System.Data.SQLite.1.0.80.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\WebActivator.1.2.0.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
